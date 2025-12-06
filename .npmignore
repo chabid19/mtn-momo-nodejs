@@ -1,0 +1,11 @@
+src/
+examples/
+coverage/
+.github/
+.eslintrc.js
+.prettierrc.js
+jest.config.js
+tsconfig.json
+task.md
+implementation_plan.md
+walkthrough.md

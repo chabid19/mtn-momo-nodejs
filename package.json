@@ -1,0 +1,47 @@
+{
+    "name": "@chabifadeen/mtn-momo",
+    "version": "1.0.0",
+    "description": "Professional Node.js SDK for MTN Mobile Money API integration",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "lint": "eslint src/**/*.ts",
+        "format": "prettier --write \"src/**/*.ts\""
+    },
+    "keywords": [
+        "mtn",
+        "momo",
+        "mobile money",
+        "sdk",
+        "payments",
+        "node",
+        "typescript"
+    ],
+    "author": "CHABI DOSSOUMON Abdou Fawaz <chabid19@github.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chabid19/mtn-momo-nodejs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/chabid19/mtn-momo-nodejs/issues"
+    },
+    "homepage": "https://github.com/chabid19/mtn-momo-nodejs#readme",
+    "dependencies": {
+        "axios": "^1.7.0",
+        "uuid": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@types/node": "^20.0.0",
+        "@types/uuid": "^10.0.0",
+        "eslint": "^9.0.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.0",
+        "ts-jest": "^29.1.0",
+        "typescript": "^5.5.0"
+    }
+}
